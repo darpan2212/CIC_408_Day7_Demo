@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 cnt=0;
 animal[((cnt++))]="Lion";
 animal[((cnt++))]="Tiger";
@@ -23,3 +25,8 @@ for ((i=0;i<${#animal[@]};i++))
 do
 	echo ${animal[i]};
 done
+
+
+
+arr=(1 2 3 4);
+echo ${arr[@]};
